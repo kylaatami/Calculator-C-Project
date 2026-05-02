@@ -55,12 +55,12 @@ void mul() {
 }
 
 void div() {
-    float a, b, hasil;
+    float a, b;
     printf("Masukkan angka pertama: ");
     scanf("%f", &a);
     printf("Masukkan angka kedua: ");
     scanf("%f", &b);
 
-    printf("Hasil pembagian: %.2f\n", hasil);
+    printf("Hasil Pembagian: %.2f\n", a / b);
 
 }
