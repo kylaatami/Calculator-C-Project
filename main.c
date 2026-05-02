@@ -3,7 +3,7 @@
 void add();
 void sub();
 void mul();
-void div_func();
+void div();
 
 int main() {
     int pilihan;
@@ -20,7 +20,7 @@ int main() {
         case 1: add(); break;
         case 2: sub(); break;
         case 3: mul(); break;
-        case 4: div_func(); break;
+        case 4: div(); break;
         default: printf("Pilihan tidak valid.\n");
     }
 
@@ -54,6 +54,13 @@ void mul() {
     printf("Hasil Perkalian: %.2f\n", a * b);
 }
 
-void div_func() {
-    // Isi logika pembagian di sini
+void div() {
+    float a, b, hasil;
+    printf("Masukkan angka pertama: ");
+    scanf("%f", &a);
+    printf("Masukkan angka kedua: ");
+    scanf("%f", &b);
+
+    printf("Hasil sementara: %.2f\n", hasil);
+
 }
