@@ -61,6 +61,6 @@ void div() {
     printf("Masukkan angka kedua: ");
     scanf("%f", &b);
 
-    printf("Hasil sementara: %.2f\n", hasil);
+    printf("Hasil pembagian: %.2f\n", hasil);
 
 }
