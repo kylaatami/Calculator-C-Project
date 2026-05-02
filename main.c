@@ -37,11 +37,21 @@ void add() {
 }
 
 void sub() {
-    // Isi logika pengurangan di sini
+    float a, b;
+    printf("Masukkan angka pertama: ");
+    scanf("%f", &a);
+    printf("Masukkan angka kedua: ");
+    scanf("%f", &b);
+    printf("Hasil Pengurangan: %.2f\n", a - b);
 }
 
 void mul() {
-    // Isi logika perkalian di sini
+    float a, b;
+    printf("Masukkan angka pertama: ");
+    scanf("%f", &a);
+    printf("Masukkan angka kedua: ");
+    scanf("%f", &b);
+    printf("Hasil Perkalian: %.2f\n", a * b);
 }
 
 void div_func() {
