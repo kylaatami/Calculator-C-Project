@@ -3,7 +3,7 @@
 void add();
 void sub();
 void mul();
-void div_func();
+void div();
 
 int main() {
     int pilihan;
@@ -20,7 +20,7 @@ int main() {
         case 1: add(); break;
         case 2: sub(); break;
         case 3: mul(); break;
-        case 4: div_func(); break;
+        case 4: div(); break;
         default: printf("Pilihan tidak valid.\n");
     }
 
@@ -44,6 +44,6 @@ void mul() {
     // Isi logika perkalian di sini
 }
 
-void div_func() {
+void div() {
     // Isi logika pembagian di sini
 }
