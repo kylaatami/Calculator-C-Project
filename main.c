@@ -28,7 +28,12 @@ int main() {
 }
 
 void add() {
-    // Isi logika penjumlahan di sini
+    float a, b;
+    printf("Masukkan angka pertama: ");
+    scanf("%f", &a);
+    printf("Masukkan angka kedua: ");
+    scanf("%f", &b);
+    printf("Hasil Penjumlahan: %.2f\n", a + b);
 }
 
 void sub() {
